@@ -39,6 +39,6 @@ _A simple currency exchange application allowing users to type in an amount in U
 
 ## License
 
-_[MIT License] (https://opensource.org/licenses/MIT)_
+_(MIT License) [https://opensource.org/licenses/MIT]_
 
 Copyright (c) _03/26/2022_ _Justice Douglas_
