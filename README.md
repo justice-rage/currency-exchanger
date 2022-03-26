@@ -1,37 +1,44 @@
-# _{Application Name}_
+# _Currency Exchanger_
 
-#### By _**{List of contributors}**_
+#### By _**Justice Douglas**_
 
-#### _{Brief description of application}_
+#### _A simple currency exchange application allowing users to convert USD to toher currencies such as francs, marks, rupees, and so on._
 
 ## Technologies Used
 
-* _List all_
-* _the major technologies_
-* _you used in your project_
-* _here_
+* _Babel_
+* _Bootstrap_
+* _CSS_
+* _HTML_
+* _JSON_
+* _JavaScript_
+* _jQuery_
+* _Node Package Manager_
+* _WebPack_
+* _esLint_
 
 ## Description
 
-_{This is a detailed description of your application. Give as much detail as needed to explain what the application does as well as any other information you want users or other developers to have.}_
+_A simple currency exchange application allowing users to type in an amount in USD and then choose which currency it should be converted to such as francs, marks, rupees, and so on. This application was created utilizing the exchange rate API._
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this application depends on? We recommend deleting the project from your desktop, re-cloning the project from GitHub, and writing down all the steps necessary to get the project working again.}_
+* _Go to https://www.exchangerate-api.com/ and create a free API key._
+* _Clone or download the currency-exchanger repository._
+* _Create a .env file in the root of your file tree._
+* _Add .env to your .gitignore_
+* _Add your API key to .env like the following example: API_KEY=pastedApiKey_
+* _Run $ npm install in terminal/console_
+* _Run $ npm run build in terminal/console_
+* _Run $ npm run start in terminal/console_
+* _Enjoy converting USD_
 
 ## Known Bugs
 
-* _Any known issues_
-* _should go here_
+* _None known of_
 
 ## License
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+_[MIT License] (https://opensource.org/licenses/MIT)_
 
-Copyright (c) _date_ _author name(s)_
+Copyright (c) _03/26/2022_ _Justice Douglas_
