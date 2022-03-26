@@ -7,8 +7,7 @@ import './css/styles.css';
 $(document).ready(function() {
   $('#usdAmount').click(function() {
     const usdValue = $('#usd').val();
-    $('#usd').val("");
-
+    
     request.onreadystatechange = function() {
       if (this.readyState === 4 && this.status === 200) {
         const response = JSON.parse(this.responseText);
