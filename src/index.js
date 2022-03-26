@@ -7,13 +7,6 @@ import './css/styles.css';
 $(document).ready(function() {
   $('#usdAmount').click(function() {
     const usdValue = $('#usd').val();
-    
-    request.onreadystatechange = function() {
-      if (this.readyState === 4 && this.status === 200) {
-        const response = JSON.parse(this.responseText);
-        getElements(response);
-      }
-    };
 
     request.open("GET", url, true);
     request.send();
