@@ -26,7 +26,10 @@ async function makeApiCall(selectedCurrency, usdAmount) {
 }
 
 $(document).ready(function() {
-  $('#usdAmount').click(function() {
-    const usdValue = $('#usd').val();
+  $('#showUsdConverted').click(function() {
+    const usdAmount = $('#usd').val();
+    const selectedCurrency = $('#currency').val();
+    clearFields();
+    makeApiCall(selectedCurrency, usdAmount);
   });
 });
