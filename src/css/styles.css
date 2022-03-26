@@ -1,0 +1,15 @@
+/* elements */
+
+body {
+  background-color: whitesmoke;
+}
+
+/* classes */
+
+.instructions {
+  font-weight: bold;
+}
+
+.result {
+  font-weight: bold;
+}
