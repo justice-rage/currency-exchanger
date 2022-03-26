@@ -20,6 +20,11 @@ function getElements(response) {
   }
 }
 
+async function makeApiCall(selectedCurrency, usdAmount) {
+  const response = await CurrencyConverter.exchangeRate(selectedCurrency, usdAmount);
+  getElements(response);
+}
+
 $(document).ready(function() {
   $('#usdAmount').click(function() {
     const usdValue = $('#usd').val();
