@@ -2,7 +2,7 @@
 
 #### By _**Justice Douglas**_
 
-#### _A simple currency exchange application allowing users to convert USD to toher currencies such as francs, marks, rupees, and so on._
+#### _A simple currency exchange application allowing users to convert USD to to other currencies such as francs, marks, rupees, and so on._
 
 ## Technologies Used
 
