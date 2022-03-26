@@ -7,9 +7,5 @@ import './css/styles.css';
 $(document).ready(function() {
   $('#usdAmount').click(function() {
     const usdValue = $('#usd').val();
-
-  function getElements(response) {
-      $('.showConversionRate').text(`${usdValue} USD converted to ${response.main.conversion_rates}%`);
-    }
   });
 });
